@@ -3,8 +3,8 @@ package com.example.sorts.comparison;
 import java.util.ArrayList;
 import com.example.sorts.AbstractSort;
 
-public class bubbleSort extends AbstractSort {
-    public bubbleSort(ArrayList<Integer> unsortedList) {
+public class BubbleSort extends AbstractSort {
+    public BubbleSort(ArrayList<Integer> unsortedList) {
         super(unsortedList);
     }
 

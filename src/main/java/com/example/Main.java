@@ -1,7 +1,8 @@
 package com.example;
 
 import java.util.ArrayList;
-import com.example.sorts.comparison.bubbleSort;
+
+import com.example.sorts.comparison.InsertionSort;
 
 public class Main {
     private static ArrayList<Integer> generateUnsortedData(int size) {
@@ -17,8 +18,12 @@ public class Main {
         ArrayList<Integer> unsortedData = generateUnsortedData(6);
         System.out.println("Unsorted List: " + unsortedData);
 
-        bubbleSort bubbleSort = new bubbleSort(unsortedData);
-        System.out.println("Unsorted List: " + bubbleSort.sort());
+        // BubbleSort bubbleSort = new BubbleSort(unsortedData);
+        // System.out.println("sorted List: " + bubbleSort.sort());
+
+        InsertionSort insertionSort = new InsertionSort(unsortedData);
+        System.out.println("sorted List: " + insertionSort.sort());
+        
 
     }
 }
