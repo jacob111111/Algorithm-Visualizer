@@ -1,0 +1,4 @@
+need to check the intended solutions for:
+
+- bubble sort
+- slection sort
