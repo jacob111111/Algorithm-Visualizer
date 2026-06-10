@@ -6,9 +6,8 @@
 			"name": "Main",
 			"request": "launch",
 			"mainClass": "com.example.Main",
-			"classPaths": [
-				"${workspaceFolder}/target/classes"
-			]
+			"preLaunchTask": "mvn compile",
+			"classPaths": ["${workspaceFolder}/target/classes"]
 		}
 	]
 }
