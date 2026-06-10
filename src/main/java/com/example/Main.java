@@ -2,7 +2,7 @@ package com.example;
 
 import java.util.ArrayList;
 
-import com.example.sorts.comparison.InsertionSort;
+import com.example.sorts.comparison.*;
 
 public class Main {
     private static ArrayList<Integer> generateUnsortedData(int size) {
@@ -21,9 +21,11 @@ public class Main {
         // BubbleSort bubbleSort = new BubbleSort(unsortedData);
         // System.out.println("sorted List: " + bubbleSort.sort());
 
-        InsertionSort insertionSort = new InsertionSort(unsortedData);
-        System.out.println("sorted List: " + insertionSort.sort());
-        
+        // InsertionSort insertionSort = new InsertionSort(unsortedData);
+        // System.out.println("sorted List: " + insertionSort.sort());
+
+        SelectionSort SelectionSort = new SelectionSort(unsortedData);
+        System.out.println("sorted List: " + SelectionSort.sort());
 
     }
 }
